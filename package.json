@@ -1,0 +1,31 @@
+{
+	"name": "auth",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon index.js"
+	},
+	"author": "Kirill",
+	"license": "ISC",
+	"dependencies": {
+		"@prisma/client": "^5.9.1",
+		"cookie-parser": "^1.4.6",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.4",
+		"ejs": "^3.1.9",
+		"express": "^4.18.2",
+		"google-auth-library": "^9.6.3",
+		"passport": "^0.7.0",
+		"passport-google-auth": "^1.0.2",
+		"passport-google-oauth": "^2.0.0"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.21",
+		"@types/node": "^20.11.17",
+		"nodemon": "^3.0.3",
+		"prisma": "^5.9.1",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
+	}
+}
